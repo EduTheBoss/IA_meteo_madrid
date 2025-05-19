@@ -23,19 +23,19 @@ PORFAVOR CAMBIAR LAS RUTAS ANTES DE EJECUTAR EL CÓDIGO.
 # ------------------------------------------------------------
 # 2. Estructura de carpetas
 # ------------------------------------------------------------
-content/
-├─ input/ ← ZIPs y CSVs originales
-│ ├─ aire/
-│ └─ meteo/
-├─ output/
-│ ├─ transformado_aire*/ ← aire long + limpio
-│ ├─ transformado_meteo*/ ← meteo long → pivot → limpio
-│ ├─ dataset_combinado_final.csv
-│ └─ dataset_listo_para_entrenar.csv
-├─ stations/ ← metadatos + mapping
-├─ graphs/ ← figuras y métricas de entrenamiento
-├─ data_pipeline.py
-└─ train_mod.py
+>content/
+>├─ input/ ← ZIPs y CSVs originales
+>│ ├─ aire/
+>│ └─ meteo/
+>├─ output/
+>│ ├─ transformado_aire*/ ← aire long + limpio
+>│ ├─ transformado_meteo*/ ← meteo long → pivot → limpio
+>│ ├─ dataset_combinado_final.csv
+>│ └─ dataset_listo_para_entrenar.csv
+>├─ stations/ ← metadatos + mapping
+>├─ graphs/ ← figuras y métricas de entrenamiento
+>├─ data_pipeline.py
+>└─ train_mod.py
 
 ---
 
@@ -84,14 +84,14 @@ content/
 # 5. Requisitos
 # ------------------------------------------------------------
 
-| Paquete | Versión probada |
-|---------|-----------------|
-| Python 3.10 osuperior | |
-| numpy, pandas, tqdm | |
-| scikit-learn ≥ 1.3 | |
-| geopy, requests, urllib3 | |
-| TensorFlow ≥ 2.15 (GPU) | |
-| matplotlib | |
+| Paquete |
+|--------------------------|
+| Python 3.10 osuperior |
+| numpy, pandas, tqdm |
+| scikit-learn ≥ 1.3 |
+| geopy, requests, urllib3 |
+| TensorFlow ≥ 2.15 (GPU) |
+| matplotlib |
 
 ---
 
